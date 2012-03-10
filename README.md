@@ -1,4 +1,4 @@
-#Fancybox Utility for Laravel Views
+#FancyBox Utility for Laravel Views
 
 ##What is it?
 
