@@ -16,44 +16,43 @@ iFrames are used to wrap the output of your target link inside FancyBox. There a
 
 ###Laravel Artisan Command-line
 
-<code>php artisan bundle:install fancybox</code>
+    php artisan bundle:install fancybox
 
-<code>php artisan bundle:publish fancybox</code>
+    php artisan bundle:publish fancybox
 
 ###Add to application/bundles.php
 
-<code>'fancybox' => array(),</code>
+    'fancybox' => array(),
 
 ... or auto-start it:
 
-<code>'fancybox' => array('auto' => true),</code>
+    'fancybox' => array('auto' => true),
 
 ###In bundles/fancybox/start.php
 
 If you don't yet have jQuery loaded in your views, uncomment the asset container for jquery at lne 8:
 
-<code>Asset::container('fancybox')->add('jquery','js/jquery-1.7.1.min.js');</code>
+    Asset::container('fancybox')->add('jquery','js/jquery-1.7.1.min.js');
 
 ###In your view/layout/wherever your HTML header is
 
 Add the following lines to the <head> of the view.
 
 
-<code><?php echo Asset::container('fancybox')->scripts(); ?></code>
-
-<code><?php echo Asset::container('fancybox')->styles(); ?></code>
+    <?php echo Asset::container('fancybox')->scripts(); ?>
+    <?php echo Asset::container('fancybox')->styles(); ?>
 
 ##Usage
 
 Within your view, use the FancyBox::html() method to generate HTML links for your taget pages.
 
-<code><?php echo FancyBox::html (URL, LinkText, fancybox_profile, fancybox_title ); ?></code>
+    <?php echo FancyBox::html (URL, LinkText, fancybox_profile, fancybox_title ); ?>
 
 ###Examples
 
 ####Wrap your signup@index controller action inside a FancyBox
 
-<code><?php echo FancyBox::html(URL::to_action('signup@index'),'SignUp!','default','SignUp for Our Services'); ?></code>
+    <?php echo FancyBox::html(URL::to_action('signup@index'),'SignUp!','default','SignUp for Our Services'); ?>
 
 ##Customizing Fancy Boxes
 
