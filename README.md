@@ -6,8 +6,6 @@ FancyBox version 1.3 - http://www.fancybox.net
 
 jQuery - http://www.jquery.com
 
-[Usage](##usage)
-
 ##What is it?
 
 A simple class bundled with all of the required FancyBox 1.3 assets and some javascript to create simple FancyBox jQuery windows within your views.
