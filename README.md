@@ -6,6 +6,8 @@ FancyBox version 1.3 - http://www.fancybox.net
 
 jQuery - http://www.jquery.com
 
+[Usage](##usage)
+
 ##What is it?
 
 A simple class bundled with all of the required FancyBox 1.3 assets and some javascript to create simple FancyBox jQuery windows within your views.
@@ -56,5 +58,39 @@ Within your view, use the FancyBox::html() method to generate HTML links for you
 
 ##Customizing Fancy Boxes
 
-*Edit the public/bundles/fancybox/fancybox.js file to your liking.
+Edit the public/bundles/fancybox/fancybox.js file to your liking with any of the FancyBox options.
+
+Reference: http://fancybox.net/api
+
+       $('a[rel="fancybox_default"]').fancybox({
+             'titleShow'          : true,
+             'title'              : $(this).attr('title'),
+              'titlePosition'      : 'outside',
+             'padding'            : 10,
+             'margin'             : 20,
+             'opacity'            : false,
+             'modal'              : false,
+             'cyclic'             : false,
+             'scrolling'          : 'auto',
+             'width'              : 800,
+             'height'             : 400,
+             'autoScale'          : true,
+             'autoDimensions'     : true,
+             'centerOnScroll'     : false,
+             'hideOnOverlayClick' : true,
+             'hideOnContentClick' : true,
+             'enableEscapeButton' : true,
+             'overlayShow'        : true,
+             'overlayOpacity'     : 0.4,
+             'overlayColor'       : '#000',
+             'transitionIn'       : 'elastic',
+             'transitionOut'      : 'elastic',
+             'easingIn'           : 'easeInCirc',
+             'easingOut'          : 'easeOutCirc',
+             'speedIn'            : 600,
+             'speedOut'           : 200,
+             'ajax'               :
+             {
+             }
+       });
 
