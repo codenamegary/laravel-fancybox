@@ -13,13 +13,13 @@ A simple class bundled with all of the required FancyBox 1.3 assets and some jav
 
 ##Installation
 
-####Laravel Artisan Command-line
+###Laravel Artisan Command-line
 
 <code>php artisan bundle:install fancybox</code>
 
 <code>php artisan bundle:publish fancybox</code>
 
-####Add to application/bundles.php
+###Add to application/bundles.php
 
 <code>'fancybox' => array(),</code>
 
@@ -28,7 +28,7 @@ A simple class bundled with all of the required FancyBox 1.3 assets and some jav
 <code>'fancybox' => array('auto' => true),</code>
 
 
-##Configuration
+#Configuration
 
 
 
