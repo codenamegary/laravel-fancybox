@@ -46,7 +46,7 @@ Add the following lines to the <head> of the view.
 
 Within your view, use the FancyBox::html() method to generate HTML links for your taget pages.
 
-    <?php echo FancyBox::html (URL, LinkText, fancybox_profile, fancybox_title ); ?>
+    <?php echo FancyBox::html(URL, LinkText, fancybox_profile, fancybox_title ); ?>
 
 ###Examples
 
