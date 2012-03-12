@@ -22,8 +22,13 @@ $(document).ready(function(){
          'overlayColor'       : '#000',
          'transitionIn'       : 'elastic',
          'transitionOut'      : 'elastic',
-         'easingIn'           : 'easeInCirc',
-         'easingOut'          : 'easeOutCirc',
+
+	 /*
+	  * UN-COMMENT THE TWO LINES BELOW TO ENABLE EASING
+         */
+         /* 'easingIn'           : 'easeInCirc', */
+         /* 'easingOut'          : 'easeOutCirc',*/
+
          'speedIn'            : 600,
          'speedOut'           : 200,
          'ajax'               :
