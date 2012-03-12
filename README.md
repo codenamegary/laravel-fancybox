@@ -21,7 +21,6 @@ iFrames are used to wrap the output of your target link inside FancyBox. There a
 ###Laravel Artisan Command-line
 
     php artisan bundle:install fancybox
-
     php artisan bundle:publish fancybox
 
 ###Add to application/bundles.php
