@@ -6,6 +6,8 @@ FancyBox version 1.3 - http://www.fancybox.net
 
 jQuery - http://www.jquery.com
 
+Live Demo: http://laravel.bookerthedog.com
+
 ##What is it?
 
 A simple class bundled with all of the required FancyBox 1.3 assets and some javascript to create simple FancyBox jQuery windows within your views.
@@ -22,11 +24,15 @@ iFrames are used to wrap the output of your target link inside FancyBox. There a
 
 ###Add to application/bundles.php
 
-    'fancybox' => array(),
+    return array(
+        'fancybox' => array(),
+    );
 
 ... or auto-start it:
 
-    'fancybox' => array('auto' => true),
+    return array(
+        'fancybox' => array('auto' => true),
+    );
 
 ###In bundles/fancybox/start.php
 
