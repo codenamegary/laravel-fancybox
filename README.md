@@ -43,7 +43,7 @@ If you don't yet have jQuery loaded in your views, uncomment the asset container
 
 ###In your view/layout/wherever your HTML header is
 
-Add the following lines to the <head> of the view.
+Add the following lines to the HTML head of the view.
 
 
     <?php echo Asset::container('fancybox')->scripts(); ?>
