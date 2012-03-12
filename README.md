@@ -6,7 +6,9 @@ FancyBox version 1.3 - http://www.fancybox.net
 
 jQuery - http://www.jquery.com
 
-Live Demo: http://laravel.bookerthedog.com
+####Live Demo
+
+http://laravel.bookerthedog.com
 
 ##What is it?
 
